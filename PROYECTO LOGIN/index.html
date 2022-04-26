@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet" 
+      src="/styles.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" src="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <form id="formulario">
+
+            <div class="titulo">Empezar</div>
+        
+        <div>
+
+            <!-- Nombre -->
+            <label for="nombreDeUsusario">Nombre de Usuario</label>
+            <i class="fas fa-user"></i>
+
+            <input type="text"
+                   name="username"
+                   id="Nombre-de-Usuario"
+                   placeholder="Hector Hernandez"
+                   />
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+
+            <div class="error"></div>
+
+        </div>
+        <div>
+
+            <!-- email -->
+            <label for="correoElectronico">Correo Electronico</label>
+            <i class="far fa-envelope"></i>
+
+            <input type="email"
+                   name="email"
+                   id="correo-electronico"
+                   placeholder="tucorreo@gmail.com"
+                   />
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+
+            <div class="error"></div>
+
+        </div>
+        <div>
+
+            <!-- contraseña -->
+            <label for="password">Contraseña</label>
+            <i class="fas fa-lock"></i>
+
+            <input type="password"
+                   name="password"
+                   id="contraseña"
+                   placeholder="Ingresar Contraseña"
+                   />
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+
+            <div class="error"></div>
+
+        </div>
+        <form>
+            <!-- boton -->
+            
+            <button id="btn" type="submit">Enviar</button>
+            
+        </form>
+        
+        </form>
+
+    </div>
+
+    <head>
